@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.top-nav {
+    padding-top: 5%;
+    color: black;
+    text-align: center;
+}
+
+.about-me {
+    padding: 5%;
+    text-align: center;
+}
+
+.projects {
+    padding: 5%;
+    text-align: center;
+}
+
+h1 {
+   color: black;
+}
+.contact {
+    padding: 5%;
+    text-align: center;
+}
+
+.header {
+    margin-top: -2%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    color: black;
+}
+
+#about-me {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.skills {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#languages {
+    display: flex;
+    flex-direction: column;
+}
+
+#soft-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+#technologies {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.fab {
+    font-size: 100px;
+}
+
+#postgres {
+    height: 100px;
+}
