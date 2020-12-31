@@ -49,7 +49,7 @@ h1 {
 #skills {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #languages {
@@ -60,15 +60,16 @@ h1 {
 #soft-skills {
     display: flex;
     flex-direction: column;
+
 }
 
 #technologies {
     display: flex;
     flex-direction: column;
+
 }
 
-ul {
-    text-align: center;
+li {
     list-style-type: none;
 }
 
@@ -78,4 +79,17 @@ ul {
 
 #postgres {
     height: 100px;
+}
+
+
+
+
+
+
+
+.list-group {
+    padding-top: 5%;
+    display: flex;
+    justify-content: left;
+    width: 15%;
 }

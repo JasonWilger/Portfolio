@@ -1,4 +1,4 @@
-
+/* responsive menu */
   .mobile-menu {
     display:block;
     width:100%;
@@ -130,6 +130,7 @@
         display:block;
       }
   }
+/* end responsive menu */
 
 /* name */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -180,6 +181,13 @@ svg {
 }
 /* end name */
 
-/* buttons */
-
-/* end buttons */
+/* down arrow */
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: -8%;
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+/* end down arrow */
