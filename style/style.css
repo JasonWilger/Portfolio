@@ -2,14 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Lora', serif;
-}
-
 .top-nav {
     padding-top: 5%;
     color: black;
     text-align: center;
+}
+
+#tell {
+    font-family: 'Poiret One', cursive;
+}
+
+.middle {
+    margin-bottom: 5%;
 }
 
 .about-me {
@@ -17,17 +21,25 @@ body {
     text-align: center;
 }
 
+#about-me {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .projects {
     padding: 5%;
     text-align: center;
+    padding-bottom: 10%;
+
+}
+
+#projects {
+    padding-bottom: 5%;
 }
 
 h1 {
    color: black;
-}
-.contact {
-    padding: 5%;
-    text-align: center;
+   font-family: 'Poiret One', cursive;
 }
 
 .header {
@@ -37,40 +49,52 @@ h1 {
     color: black;
 }
 
-#about-me {
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.skills {
+/* SKILLS */
+#Skills-title {
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-#skills {
+#skills-title {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: underline;
+}
+
+.skills {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    font-family: 'Poiret One', cursive;
 }
 
-#languages {
-    display: flex;
-    flex-direction: column;
+.skills p {
+    font-size: 25px;
+    color: black;
 }
 
-#soft-skills {
-    display: flex;
-    flex-direction: column;
 
+/* logos */
+#html {
+    color: #E44D26;
 }
 
-#technologies {
-    display: flex;
-    flex-direction: column;
-
+#css {
+ color: #264de4;
 }
 
-li {
-    list-style-type: none;
+#js {
+    color: #f0db4f;
+}
+
+#git {
+    color: #666666;
+}
+
+#ejs {
+    font-size: 250%;
+    color: #a91e50;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .fab {
@@ -81,15 +105,38 @@ li {
     height: 100px;
 }
 
+/* end logos */
+/* END SKILLS */
 
+.footer {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    box-shadow: 0 30px 40px rgba(0,0,0,.9);
+}
 
-
-
-
-
-.list-group {
-    padding-top: 5%;
+#j-email {
     display: flex;
-    justify-content: left;
-    width: 15%;
+    justify-content: center;
+    padding-bottom: 5%;
+    color:  #ffeecf;
+    font-family: 'Poiret One', cursive;
+}
+
+#j-email a {
+    text-decoration: none;
+    color:  #0496FF;
+}
+
+#foot-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Poiret One', cursive;
+}
+
+#foot-links a {
+    text-decoration: none;
+    color:  #ffeecf;
+    font-size: 200%;
 }

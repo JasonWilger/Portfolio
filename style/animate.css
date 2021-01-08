@@ -3,9 +3,15 @@
     display:block;
     width:100%;
     line-height: 1.6em;
-    font-weight: 400;
+    font-size: 175%;
     width:100%;
     text-align:center;
+    background-color: black;
+    margin-top: -5%;
+    margin-bottom:-5%;
+    padding-top: 4%;
+    padding-bottom: 2.5%;
+    box-shadow: 0 30px 40px rgba(0,0,0,.3);
   }
   /*Strip the ul of padding and list styling*/
   .mobile-menu ul {
@@ -15,12 +21,20 @@
     text-align:center;
     width:100%;
     position: absolute;
+    background-color: black;
+    margin-top: -5%;
+    margin-bottom:-5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    box-shadow: 0 30px 40px rgba(0,0,0,.3);
+
   }
   
   /*Create a horizontal list with spacing*/
   .mobile-menu li {
     display:inline-block;
-
+    padding-left: 2.5%;
+    padding-right: 2.5%;
   }
   
   /*Style for menu links*/
@@ -28,8 +42,8 @@
     display:block;
     min-width:140px;
     text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: black;
+    font-family: 'Poiret One', cursive;
+    color: #ffeecf;
     text-transform:uppercase;
     text-decoration: none;
     padding: 10px 0;  
@@ -42,7 +56,7 @@
   
   /*Hover state for top level links*/
   .mobile-menu li:hover a {
-    color: #FDB731;
+    color: #0496FF;
   }
   
   /*Style for dropdown links*/
@@ -53,7 +67,7 @@
   
   /*Hover state for dropdown links*/
   .mobile-menu li:hover .mobile-menu ul a:hover {
-    color: black;
+    color: #ffeecf;
   }
   
   /*Hide dropdown links until they are needed*/
@@ -86,8 +100,9 @@
   }
   
   .mobile-menu .show-menu span{
-    color: black;
+    color: #ffeecf;
     padding-left: 20px;
+    font-family: 'Poiret One', cursive;
   }
   
   /*Hide checkbox*/
@@ -104,8 +119,7 @@
   
   @media screen and (max-width : 800px){
     .mobile-menu .lines {
-    border-bottom: 15px double black; 
-    border-top: 5px solid black; 
+    border-bottom: 15px double #ffeecf; 
     content:"";
     height: 5px; 
     width:20px;
@@ -188,6 +202,6 @@ svg {
   margin-top: -8%;
 	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
-	animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
 }
 /* end down arrow */
