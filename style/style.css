@@ -26,6 +26,12 @@ html {
     padding-bottom: 5%;
 }
 
+h2, .about-me {
+    padding-top: 10%;
+    padding-block: 10%;
+    font-family: 'Poiret One', cursive;
+}
+
 .projects {
     padding: 5%;
     text-align: center;
@@ -139,4 +145,10 @@ h1 {
     text-decoration: none;
     color:  #ffeecf;
     font-size: 200%;
+}
+
+.to-top {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
 }

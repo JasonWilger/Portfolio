@@ -6,10 +6,10 @@
     <title>Jason Wilger</title>
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io (6)/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io (6)/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io (6)/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon_io (6)/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
     <!-- end favicon -->
 
     <!-- links -->
@@ -29,6 +29,7 @@
   rel="stylesheet"
 />
 <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- end links -->
   
   </head>
@@ -53,7 +54,7 @@
         <div class="container text-center text-dark">
             <svg viewBox="0 0 960 300">
                 <symbol id="s-text">
-                          <text text-anchor="middle" x="50%" y="80%"> < Jason /> </text>
+                          <text text-anchor="middle" x="50%" y="80%"> { Jason } </text>
                 </symbol>
                 <g class = "g-ants">
                     <use xlink:href="#s-text" class="text-copy"></use>
@@ -66,19 +67,13 @@
             <h3 id="tell">Full Stack Web Developer</h3>
         </div>
     </div>
-    <div class="down-arrow">
+    <div class="move-arrow">
         <a href="#about-me">
-        <img alt="down-arrow" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/
-        PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3
-        JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBo
-        ZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9Ij
-        MycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxp
-        bms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC
-        4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUs
-        MCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMi
-        AgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwx
-        MS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4="
-        /></a>
+          <svg alt="down-arrow" xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </a>
     </div>
   <!-- end header -->
 
@@ -88,7 +83,7 @@
   <!-- about -->
         <div class="about-me">
             <h1 id="about-me">- About Me -</h1>
-                <h2>Hello! I am a recent graduate of DigitalCrafts coding boot camp bringing
+                <h2 data-aos="fade-up" data-aos-duration="1000">Hello! I am a recent graduate of DigitalCrafts coding boot camp bringing
                     skills in the latest cutting edge development tools and languages.
                     I am able to effectively self-manage during independent projects, 
                     as well as collaborate as part of a productive team.
@@ -100,7 +95,7 @@
         <h1 id="Skills-title">Here are some of my skills!</h1>
 
             <div class="skills">
-              <div id="languages">
+              <div id="languages" data-aos="fade-right" data-aos-duration="1000">
                 <h2 id="skills-title">Languages</h2>
                   <div>
                     <i id="html" class="fab fa-html5"></i>
@@ -113,7 +108,7 @@
                     <p>Git/GitHub</p>
                   </div>
                 </div>
-                <div id="soft-skills">
+                <div id="soft-skills" data-aos="fade-up" data-aos-duration="1000">
                 <h2 id="skills-title">Soft Skills</h2>
                     <div id="soft-items">
                       <p>Communications</p>
@@ -123,7 +118,7 @@
                       <p>Leadership</p>
                     </div>
                   </div>
-                  <div id="technologies">
+                  <div id="technologies" data-aos="fade-left" data-aos-duration="1000">
                 <h2 id="skills-title">Technologies</h2>
                     <div>
                       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABcCAMAAABUbtc8AAAAzFBMVEX///8z
@@ -175,7 +170,7 @@
         <div class="projects">
             <h1 id="projects">- Projects -</h1>
             <div class="card-deck">
-                <div class="card bg-dark text-light">
+                <div class="card bg-dark text-light" data-aos="fade-right" data-aos-duration="1000">
                   <a href="..."><img src="img/crushn'.png" class="card-img-top" alt="dating app screenshot"></a>
                   <div id="project-cards" class="card-body">
                     <h5 class="card-title">Crushn'</h5>
@@ -185,7 +180,7 @@
                     <a href=""><img src="https://img.icons8.com/fluent-systems-filled/48/000000/github.png"/></a> 
                     <br>                 
                 </div>
-                <div class="card bg-dark text-light">
+                <div class="card bg-dark text-light" data-aos="fade-up" data-aos-duration="1000">
                 <a href="..."><img src="img/beer.png" class="card-img-top" alt="beer screenshot"></a>
                   <div id="project-cards" class="card-body">
                     <h5 class="card-title">Get Your Beer On</h5>
@@ -195,7 +190,7 @@
                     <a href="https://github.com/fiixed/Get-Your-Beer-On"><img src="https://img.icons8.com/fluent-systems-filled/48/000000/github.png"/></a>
                     <br>                 
                 </div>
-                <div class="card bg-dark text-light">
+                <div class="card bg-dark text-light" data-aos="fade-left" data-aos-duration="1000">
                   <a href="..."><img src="img/the-surfer.png" class="card-img-top" alt="surfing screenshot"></a>
                   <div id="project-cards" class="card-body">
                     <h5 class="card-title">The Surfer</h5>
@@ -212,6 +207,15 @@
     </div>
   <!-- end middle -->
 
+  <div class="to-top" data-aos="fade-up" data-aos-duration="1000">
+    <a href="/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+            <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+          </svg>
+    </a>
+</div>
+
   <!-- footer -->
   <div class="footer">
     <div id="foot-info">
@@ -222,7 +226,6 @@
           <a href="https://vsco.co/wilger11/gallery">VSCO</a>
         </div>
     </div>
-
   </div>
   <!-- end footer -->
 
@@ -240,6 +243,10 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js">
     </script>
     <script src="https://kit.fontawesome.com/c6b0acb7b4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   <!-- end script -->
 
 </body>

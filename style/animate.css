@@ -196,7 +196,7 @@ svg {
 /* end name */
 
 /* down arrow */
-.down-arrow {
+.move-arrow {
   display: flex;
   justify-content: center;
   margin-top: -8%;
