@@ -6,9 +6,9 @@ const PORT = process.env.PORT || 4000;
 app.use(express.static("public"))
 app.use(express.static("views"))
 
-// // define the first route
-// app.get("/", function (req, res) {
-//   res.send("`///`")
-// })
+// define the first route
+app.get('/photo', function (req, res,html) {
+    res.sendFile(path.join(__dirname+'/photo.html'));
+   });
 
 app.listen(PORT, () => console.log(`Example app listening at http://localhost:${PORT}`));
