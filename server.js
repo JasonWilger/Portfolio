@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 4000;
+const path = require("path");
 
 // use the express-static middleware
 app.use(express.static("public"))
