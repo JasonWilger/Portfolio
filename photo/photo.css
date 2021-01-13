@@ -1,6 +1,10 @@
-.photo {
+.page-title {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.photo {
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
