@@ -11,4 +11,4 @@ app.use(express.static("views"))
 //   res.send("`///`")
 // })
 
-app.listen(PORT, () => console.log(`Example app listening at http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Example app listening at ${PORT}`));
