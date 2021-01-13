@@ -7,7 +7,7 @@ app.use(express.static("public"))
 app.use(express.static("views"))
 
 // define the first route
-app.get('/photo', function (req, res,html) {
+app.get('/', function (req, res,html) {
     res.sendFile(path.join(__dirname+'/photo.html'));
    });
 
