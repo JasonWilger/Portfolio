@@ -40,6 +40,7 @@ h2, .about-me {
 }
 
 #projects {
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -57,6 +58,8 @@ h1 {
 
 /* SKILLS */
 #Skills-title {
+    display: flex;
+    justify-content: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
